@@ -1,4 +1,4 @@
-package bai10;
+package bai10.array_list;
 
 public class MainTestList {
     public static void main(String[] args) {
