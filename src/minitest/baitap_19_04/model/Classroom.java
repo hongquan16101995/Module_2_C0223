@@ -1,12 +1,20 @@
 package minitest.baitap_19_04.model;
 
-public class Classroom {
-    private static int INDEX = 0;
+import java.io.Serializable;
+
+public class Classroom implements Serializable {
+    private static final long serialVersionUID = 1234567898654321L;
+    public static int INDEX;
     private final int id;
     private String name;
 
     public Classroom(String name) {
         this.id = ++INDEX;
+        this.name = name;
+    }
+
+    public Classroom(int id, String name) {
+        this.id = id;
         this.name = name;
     }
 

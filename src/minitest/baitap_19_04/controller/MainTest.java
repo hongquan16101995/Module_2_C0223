@@ -5,6 +5,7 @@ import minitest.baitap_19_04.model.Student;
 import minitest.baitap_19_04.service.impl.ClassroomManage;
 import minitest.baitap_19_04.service.impl.StudentManage;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class MainTest {
@@ -17,7 +18,6 @@ public class MainTest {
 
     private static void superMenu(StudentManage studentManage, Scanner scanner) {
         do {
-
             System.out.println("MENU");
             System.out.println("1. Create new Student");
             System.out.println("2. Update Student by id");
